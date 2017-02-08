@@ -1,0 +1,12 @@
+{
+   "gemName": "semp_config_client",
+   "moduleName": "SEMPConfigClient",
+   "gemVersion": "2.7.2.2.34",
+   "gemLicense": "Apache-2.0",
+   "gemHomepage": "http://solace.com",
+   "gemSummary": "A Ruby client wrapper around SEMP Config API",
+   "gemDescription": "This gem maps to a SEMP Config API used for configuring a Solace router",
+   "gemAuthor": "Solace Corp",
+   "gemAuthorEmail": "support_request@solace.com"
+}
+
