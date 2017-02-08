@@ -1,14 +1,14 @@
-# solace-semp-config
-##Configuring a Solace router using the Solace Element Management Protocol version 2 (SEMPv2)
+# Configuring a Solace router using the Solace Element Management Protocol version 2 (SEMPv2)
 
-Client for Ruby is built by running swagger-codegen:  
+See [Java directory](java) for SEMP Config samples written in Java and a generated Java client.
 
-> wget http://repo1.maven.org/maven2/io/swagger/swagger-codegen-cli/2.2.1/swagger-codegen-cli-2.2.1.jar -O swagger-codegen-cli.jar
+See [Python directory](python) for SEMP Config samples written in Python and a generated Python client.
 
+See [Ruby directory](ruby) for SEMP Config samples written in Ruby and a generated Ruby client.
 
-> java -jar swagger-codegen-cli.jar generate -i http://**VMR-IPADDRESS**:8080/SEMP/v2/config/spec -l ruby -o ./client
+Notice that nothing in this repository is supported by the author and/or Solace Corporation, see [License](LICENSE).
 
+If you want to contribute and you work at Solace, contact the author through the corporate email.
 
-See individual programs source for details.
-
+If you don't work at Solace and want some changes, don't hesitate to fork this repository.
 
