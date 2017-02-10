@@ -5,9 +5,9 @@ When generating a Java Client for SEMP Config API be aware what networking libra
 It is recommended to use one of the following libraries:
 
 * okhttp-gson **default** [OkHttp](https://github.com/square/okhttp) is an HTTP & HTTP/2 client for Android and Java applications. The [google-gson](https://github.com/google/gson) library is used for converting Java Objects into their JSON representation.
-* jersey2 **this Java client** [Jersey RESTful Web Services framework](https://jersey.java.net/) is open source, production quality, framework for developing RESTful Web Services in Java that provides support for JAX-RS APIs and serves as a JAX-RS (JSR 311 & JSR 339) Reference Implementation.
+* jersey2 [Jersey RESTful Web Services framework](https://jersey.java.net/) is open source, production quality, framework for developing RESTful Web Services in Java that provides support for JAX-RS APIs and serves as a JAX-RS (JSR 311 & JSR 339) Reference Implementation.
 * retrofit2 [Retrofit 2](https://square.github.io/retrofit/) is a type-safe HTTP client for Android and Java. Notice that it must be version 2.
-* volley [Google Volley][https://android.googlesource.com/platform/frameworks/volley/] is an HTTP library that makes networking for Android apps easier and faster. See [Transmitting Network Data Using Volley](https://developer.android.com/training/volley/index.html).
+* volley [Google Volley](https://android.googlesource.com/platform/frameworks/volley/) is an HTTP library that makes networking for Android apps easier and faster. See [Transmitting Network Data Using Volley](https://developer.android.com/training/volley/index.html).
 
 See [the Client documentation](./semp-config-client-java/README.md) for details.
 
