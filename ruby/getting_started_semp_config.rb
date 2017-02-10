@@ -27,8 +27,9 @@ require 'semp_config_client'
 
 # Setup authorization
 SEMPConfigClient.configure do |config|
-  # most assign host and base_path
-  config.host = 'http://AAA.BBB.CCC.DDD:8080' # change to your Solace Message Router URI
+  # must assign host and base_path
+  config.scheme = 'http'
+  config.host = 'AAA.BBB.CCC.DDD:8080' # change to your Solace Message Router URI
   config.base_path = 'SEMP/v2/config'
   # Configure HTTP basic authorization: basicAuth
   config.username = 'username' # change to your credentials

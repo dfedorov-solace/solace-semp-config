@@ -1,0 +1,17 @@
+{
+   "modelPackage": "com.solace.sempconfigclient.model",
+   "apiPackage": "com.solace.sempconfigclient.api",
+   "invokerPackage": "com.solace.sempconfigclient",
+   "groupId": "com.solace",
+   "artifactId": "semp-config-client",
+   "artifactVersion": "2.7.2.2.34",
+   "localVariablePrefix": "",
+   "serializableModel": "false",
+   "bigDecimalAsString": "false",
+   "fullJavaUtil": "false",
+   "dateLibrary": "java8",
+   "useRxJava": "false",
+   "useAndroidMavenGradlePlugin": "false",
+   "library": "jersey2"
+}
+
